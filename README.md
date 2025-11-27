@@ -75,3 +75,7 @@ npm run dev
 
 The app expects the CSV/JSON exports under `frontend/public/data/` (the repo already includes a sample pulled from the latest clustering run). To refresh with new results, rerun the backend pipeline and copy the updated files into that directory (or wire an API endpoint that serves them dynamically).
 
+**Note:** The files in the `artifacts/` folder are backend-generated outputs.  
+They are included here for demonstration purposes to show how the pipeline works.  
+When running the backend locally, these files will be generated automatically in the same folder.
+
